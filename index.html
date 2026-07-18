@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-  <html lang="pt-BR">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slinore | Links</title>
-  <meta name="description" content="Todos os links da Slinore em um so lugar.">
-  <style>
-    :root{
-      --rose-1:#f7e6e6;
-      --rose-2:#f2c9cf;
-      --rose-3:#e39aa6;
-      --rose-deep:#b9707f;
-      --ink:#3a2a2e;
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slinore | Enlaces</title>
+<meta name="description" content="Todos los enlaces de Slinore en un solo lugar.">
+<style>
+  :root{
+    --rose-1:#f7e6e6;
+    --rose-2:#f2c9cf;
+    --rose-3:#e39aa6;
+    --rose-deep:#b9707f;
+    --ink:#3a2a2e;
     --ink-soft:#6b5257;
     --white:#ffffff;
-      }
+  }
   *{box-sizing:border-box;}
   body{
-        margin:0;
+    margin:0;
     min-height:100vh;
     font-family:'Helvetica Neue', Arial, sans-serif;
     background:linear-gradient(160deg, var(--rose-1) 0%, var(--rose-2) 45%, var(--rose-3) 100%);
     display:flex;
     justify-content:center;
     padding:48px 20px 40px;
-}
-    .card{
-          width:100%;
+  }
+  .card{
+    width:100%;
     max-width:420px;
     text-align:center;
-}
+  }
   .avatar{
-        width:96px;
+    width:96px;
     height:96px;
     border-radius:50%;
     background:var(--white);
@@ -44,32 +44,38 @@
     font-size:34px;
     color:var(--rose-deep);
     letter-spacing:1px;
-}
+    overflow:hidden;
+  }
+  .avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
   h1{
-        font-family:Georgia, 'Times New Roman', serif;
+    font-family:Georgia, 'Times New Roman', serif;
     font-size:26px;
     letter-spacing:3px;
     color:var(--ink);
     margin:0 0 6px;
     text-transform:uppercase;
-}
+  }
   p.tag{
     margin:0 0 32px;
     color:var(--ink-soft);
-        font-size:14px;
+    font-size:14px;
     letter-spacing:0.5px;
-      }
+  }
   .links{
-        display:flex;
+    display:flex;
     flex-direction:column;
     gap:14px;
   }
   a.link-btn{
-        display:flex;
+    display:flex;
     align-items:center;
     gap:14px;
     background:rgba(255,255,255,0.75);
-        border:1px solid rgba(255,255,255,0.9);
+    border:1px solid rgba(255,255,255,0.9);
     backdrop-filter:blur(6px);
     border-radius:16px;
     padding:16px 20px;
@@ -77,80 +83,86 @@
     color:var(--ink);
     font-size:15px;
     font-weight:600;
-          letter-spacing:0.3px;
+    letter-spacing:0.3px;
     box-shadow:0 4px 14px rgba(120,70,80,0.10);
     transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
-}
+  }
   a.link-btn:hover, a.link-btn:active{
     transform:translateY(-2px);
-                box-shadow:0 8px 22px rgba(120,70,80,0.20);
-          background:rgba(255,255,255,0.95);
-      }
+    box-shadow:0 8px 22px rgba(120,70,80,0.20);
+    background:rgba(255,255,255,0.95);
+  }
   .icon{
-          width:38px;
-        height:38px;
-          min-width:38px;
+    width:38px;
+    height:38px;
+    min-width:38px;
     border-radius:50%;
-          background:linear-gradient(135deg, var(--rose-2), var(--rose-deep));
+    background:linear-gradient(135deg, var(--rose-2), var(--rose-deep));
     display:flex;
     align-items:center;
-          justify-content:center;
-        color:var(--white);
+    justify-content:center;
+    color:var(--white);
     font-size:17px;
-}
+    overflow:hidden;
+  }
+  .icon img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
   footer{
     margin-top:36px;
     font-size:12px;
     color:var(--ink-soft);
-          opacity:0.8;
-}
-        footer a{
+    opacity:0.8;
+  }
+  footer a{
     color:var(--ink-soft);
-        }
+  }
 </style>
-    </head>
+</head>
 <body>
   <div class="card">
     <div class="avatar">S</div>
-          <h1>Slinore</h1>
-    <p class="tag">Beleza &amp; cuidado, todos os dias</p>
+    <h1>Slinore</h1>
+    <p class="tag">Belleza y cuidado, todos los dias</p>
 
-                <div class="links">
-            <a class="link-btn" href="#" data-role="landing" target="_blank" rel="noopener">
-              <span class="icon">Loja</span>
-        <span>Loja Online</span>
+    <div class="links">
+      <a class="link-btn" href="#" data-role="landing" target="_blank" rel="noopener">
+        <span class="icon">Tienda</span>
+        <span>Tienda en Linea</span>
       </a>
 
-          <a class="link-btn" href="#" data-role="whatsapp" target="_blank" rel="noopener">
-        <span class="icon">Zap</span>
-        <span>Fale no WhatsApp</span>
-            </a>
+      <a class="link-btn" href="#" data-role="whatsapp" target="_blank" rel="noopener">
+        <span class="icon">Chat</span>
+        <span>Escribenos por WhatsApp</span>
+      </a>
 
       <a class="link-btn" href="#" data-role="about" target="_blank" rel="noopener">
-        <span class="icon">Nos</span>
-              <span>Quem Somos Nos</span>
+        <span class="icon">Nosotros</span>
+        <span>Quienes Somos</span>
       </a>
 
-          <a class="link-btn" href="#" data-role="ebook" target="_blank" rel="noopener">
-        <span class="icon">Livro</span>
-              <span>Artigo + E-book Gratis</span>
-                  </a>
+      <a class="link-btn" href="#" data-role="ebook" target="_blank" rel="noopener">
+        <span class="icon">Libro</span>
+        <span>Articulo mas E-book Gratis</span>
+      </a>
     </div>
 
-                <footer>
-      &copy; <span id="year"></span> Slinore. Todos os direitos reservados.
+    <footer>
+      &copy; <span id="year"></span> Slinore. Todos los derechos reservados.
     </footer>
-      </div>
+  </div>
 
-        <script>
-          document.getElementById('year').textContent = new Date().getFullYear();
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
 
     var LINKS = {
       landing:  "https://slinore.com",
       whatsapp: "https://wa.me/55SEUNUMEROAQUI",
       about:    "https://slinore.com/pages/quem-somos",
       ebook:    "https://slinore.com/pages/artigo-ebook"
-      };
+    };
 
     var els = document.querySelectorAll('[data-role]');
     for (var i = 0; i < els.length; i++) {
@@ -159,6 +171,5 @@
       if (LINKS[role]) el.setAttribute('href', LINKS[role]);
     }
   </script>
-    </body>
-    </html>
-    
+</body>
+</html>
